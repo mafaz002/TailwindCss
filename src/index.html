@@ -9,23 +9,21 @@
   <body>
     <!-- NAVBAR SECTION -->
     <nav class="flex flex-row justify-between items-center mx-10 my-5">
-      <img src="../assets/logo.svg" alt="txt" />
-      <div
-        class="hidden md:flex justify-center items-center flex-1 space-x-12 bg-green-500"
-      >
-        <a class="font-bold select-none hover:cursor-pointer hover:text-white"
+      <img class="pt-3.5" src="../assets/logo.svg" alt="txt" />
+      <div class="hidden md:flex justify-center items-center flex-1 space-x-12">
+        <a class="font-bold select-none hover:cursor-pointer hover:underline"
           >Pricing</a
         >
-        <a class="font-bold select-none hover:cursor-pointer hover:text-white"
+        <a class="font-bold select-none hover:cursor-pointer hover:underline"
           >Product</a
         >
-        <a class="font-bold select-none hover:cursor-pointer hover:text-white"
+        <a class="font-bold select-none hover:cursor-pointer hover:underline"
           >About Us</a
         >
-        <a class="font-bold select-none hover:cursor-pointer hover:text-white"
+        <a class="font-bold select-none hover:cursor-pointer hover:underline"
           >Career</a
         >
-        <a class="font-bold select-none hover:cursor-pointer hover:text-white"
+        <a class="font-bold select-none hover:cursor-pointer hover:underline"
           >Community</a
         >
       </div>
@@ -37,5 +35,27 @@
     </nav>
 
     <!-- HERO SECTION -->
+    <section class="flex">
+      <div
+        class="flex flex-1 mt-[4%] flex-col-reverse md:flex-row md:space-x-20 md:justify-around"
+      >
+        <div class="flex-1 ml-10 2xl:max-w-[20%]">
+          <h1 class="font-bold select-none text-5xl">
+            Bring everyone together to build better products
+          </h1>
+          <p class="mt-[40px] select-none text-[20px] text-gray-500">
+            Manage makes it simple for software teams to plan day-to-day tasks
+            while keeping the larger team goals in view.
+          </p>
+          <span
+            class="hidden rounded-3xl select-none text-white font-bold px-5 py-2.5 mt-[40px] bg-orangered hover:cursor-pointer hover:bg-lightcoral md:inline-block"
+            >Get Started</span
+          >
+        </div>
+        <div class="flex-1 flex justify-center">
+          <img src="../assets/illustration-intro.svg" alt="" />
+        </div>
+      </div>
+    </section>
   </body>
 </html>
